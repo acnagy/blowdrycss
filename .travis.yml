@@ -12,6 +12,9 @@ python:
   - "3.4"
   - "3.5"
 
+before_install:
+  - sudo apt-get update -y
+
 # command to install dependencies
 install:
   - sudo apt-get install pandoc
